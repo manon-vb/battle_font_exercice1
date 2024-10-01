@@ -1,0 +1,66 @@
+
+.handjet{
+  font-family: 'handjet';
+}
+
+.tiny{
+  font-family: 'tiny';
+}
+
+
+h2{
+  font-size: 200px ;
+ }
+  
+#premier {
+  position: absolute;
+  left:20vh;
+  top:5vw;
+  font-variation-settings: "wght" 100;
+  transform: rotate(-10deg);
+  color:rgba(55, 39, 128, 0.686);
+  opacity: 1;
+}
+  
+#second {
+  position: relative;
+  top: -70vh;
+  left: -10vw;
+  font-variation-settings: "wght" 400, "ELRG" 1, "ELSH" 1;
+  transform: rotate(-70deg);
+  color:rgba(135, 47, 75, 0.686);
+  z-index: -1;
+}  
+
+#trois {
+  position: absolute;
+  right:20vh;
+  top:5vw;
+  font-size: 200px;
+  font-variation-settings: "wght" 300;
+  transform: rotate(20deg);
+  color:rgba(55, 39, 128, 0.686);
+  opacity: 1;
+}
+
+#quatre {
+  position: absolute;
+  top: 10%;
+  right: 15%;
+  font-variation-settings: "wght" 600, "ELRG" 1, "ELSH" 5;
+  font-size: 100px;
+  transform: rotate(0deg);
+  color:rgba(135, 47, 75, 0.686);
+  mix-blend-mode: color-dodge;
+  
+}
+
+#cinq{
+  position:absolute;
+  top:10%;
+  right:25%;
+  font-variation-settings: "wght" 700, "ELRG" 1, "ELSH" 8;
+  font-size: 150px;
+  transform: rotate(-5deg);
+  color:rgba(55, 39, 128, 0.686);
+}
